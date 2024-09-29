@@ -1,10 +1,10 @@
 ﻿
 Trello Board Automation Testing
-
+---------------------
 In this project, The creation of a board in trello is automated in 2 ways. one by using webUi of the Trello, the second way is by using the Api calls offered by Trello
 
 1. Automation testing using the WebUi of Trello :
-
+---------------------
 	Tools and Framework Used :
 		Specflow, Selenium, C# and Visual Studio
 	- SpecFlow tests are written using Gherkin, which allows you to write test cases using natural languages.
@@ -13,7 +13,7 @@ In this project, The creation of a board in trello is automated in 2 ways. one b
 	- The authentication is done by signing up in the trello portal.
 
 2. Automation testing using the Api of Trello :
-	
+---------------------
 	Tools and Framework Used :
 		Specflow, RestSharp, C# and Visual Studio
 	- SpecFlow tests are written using Gherkin, which allows you to write test cases using natural languages.
@@ -23,7 +23,7 @@ In this project, The creation of a board in trello is automated in 2 ways. one b
 
 
 How to Build and Run :
-
+---------------------
 	1. Clone this repository into your local repository.
 	2. Open it the IDE which supports .Net or C# (Preferrably Visual Studio)
 	3. Build the project using the Build option in the IDE.
@@ -117,7 +117,6 @@ While staying inactive in screen-
 
 
 Test Report Generation
-
 --------------------------------
 
 I would generate test reports for all the SpecFlow test scenarios by integrating a Test report generation tool such as Specflow+LivingDoc.
